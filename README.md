@@ -10,8 +10,8 @@ This package is developed with [ROS2](https://docs.ros.org/en/humble/index.html)
 
 The files include:
 
-1. The XML file `(src/description/model/xml/digit.xml)` of [Digit](https://agilityrobotics.com/news/2022/future-robotics-l3mjh) for the simulation in [MuJoCo](https://mujoco.org/).
-2. A class named `MuJoCoMessageHandler` is also provided, which publishes the robot joint state and imu message. The `odom` message is just the real pose of the robot in simulation. More details can be found in the cpp file `src/simulation/mujoco/src/MuJoCoMessageHandler.cpp`.
+1. The XML file `(description/model/xml/digit.xml)` of [Digit](https://agilityrobotics.com/news/2022/future-robotics-l3mjh) for the simulation in [MuJoCo](https://mujoco.org/).
+2. A class named `MuJoCoMessageHandler` is also provided, which publishes the robot joint state and imu message. The `odom` message is just the real pose of the robot in simulation. More details can be found in the cpp file `simulation/mujoco/src/MuJoCoMessageHandler.cpp`.
 3. ROS2 ([version](https://docs.ros.org/en/humble/index.html)) is needed to run this package.
 
 ## Installation
