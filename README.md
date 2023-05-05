@@ -23,7 +23,7 @@ cd ~/ & mkdir -p your_workspace/src
 
 ```
 # Clone this package to your_workspace/src
-cd ~/your_workspace/src & git clone https://github.com/DeepBreakOfficial/Digit-MuJoCo-ROS2.git
+cd ~/your_workspace/src & git clone https://github.com/MindSpaceInc/Digit-MuJoCo-ROS2.git
 ```
 
 ```
